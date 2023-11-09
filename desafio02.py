@@ -17,5 +17,6 @@ def encontra_soma_zero(array):
 
     return lista_resultado
 
+
 array = [-1, 0, 1, 2, -1, -4]
-print(f"3 números consecutivos com soma zero: {encontra_soma_zero(array)}")
+print(f"3 números consecutivos com soma igual a zero: {encontra_soma_zero(array)}")

@@ -22,11 +22,12 @@ def encontre_numero_nao_repetido_2_vezes(array):
             contagem[n] += 1
         else:
             contagem[n] = 1
-            
+
     for n, frequencia in contagem.items():
         if not frequencia == 2:
             return n
 
+
 array = [5, 3, 4, 3, 4]
 resultado = encontre_numero_nao_repetido_2_vezes(array)
-print("Número único no array:", resultado)
+print(f"Unico número que não repete 2 vezes no array: {resultado}", )

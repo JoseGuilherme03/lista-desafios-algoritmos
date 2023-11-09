@@ -18,6 +18,7 @@ def encontre_numeros_faltantes(array):
 
     return intervalos_faltantes
 
+
 array = [1, 2, 3, 6, 7, 8]
 resultados = encontre_numeros_faltantes(array)
-print("Números faltantes na sequência do array:", resultados)
+print(f"Números faltantes na sequência do array: {resultados}", )
