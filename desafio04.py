@@ -14,7 +14,7 @@ Single Number: 5
 """
 
 
-def encontre_numero_nao_repetido(array):
+def encontre_numero_nao_repetido_2_vezes(array):
     contagem = {}
 
     for n in array:
@@ -24,9 +24,9 @@ def encontre_numero_nao_repetido(array):
             contagem[n] = 1
             
     for n, frequencia in contagem.items():
-        if frequencia == 1:
+        if not frequencia == 2:
             return n
 
 array = [5, 3, 4, 3, 4]
-resultado = encontre_numero_nao_repetido(array)
+resultado = encontre_numero_nao_repetido_2_vezes(array)
 print("Número único no array:", resultado)
