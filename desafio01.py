@@ -10,7 +10,6 @@ def encontre_numeros_faltantes(array):
 
     intervalos_faltantes = []
 
-    # Percorre o array para identificar os intervalos de números faltantes
     for i in range(len(array) - 1):
         if array[i + 1] - array[i] > 1:
             intervalo = list(range(array[i] + 1, array[i + 1]))
